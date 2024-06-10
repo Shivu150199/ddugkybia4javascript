@@ -121,4 +121,4 @@ sum=sum+arr[i][j]
 console.log(sum)
 }
 
-sumOfArray([[1, 2, 3], [4, 5, 6], [7, 8,9]])
+sumOfArray([[1, 2, 3], [4, 5, 6], [7, 8,10]])
