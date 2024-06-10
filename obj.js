@@ -95,7 +95,11 @@ let movie={
 
 // const for='let'
 
-In operator in object 
-for in loop 
-cloning and copy of object
-methods in objects
+// In operator in object 
+// for in loop 
+// cloning and copy of object
+// methods in objects
+
+
+
+
