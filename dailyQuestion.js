@@ -90,35 +90,80 @@
 
 
 
+//sum of matrices
+
+// let array = [[1, 2, 3], [4, 5, 6], [7, 8, ,4,9]]
+// let sum = 0
+// for (let i = 0; i < array.length; i++) {
+//     //i=0/1/2/3
+//     for (let j = 0; j < array[i].length; j++) {
+//         // j=0/1/2/3
+//         sum = sum + array[i][j]//1+2+3+4+5+6+4+7+8+9
+//     }
+// }
+// console.log(sum)
 
 
-let array = [[1, 2, 3], [4, 5, 6], [7, 8, ,4,9]]
-let sum = 0
-for (let i = 0; i < array.length; i++) {
-    //i=0/1/2/3
-    for (let j = 0; j < array[i].length; j++) {
-        // j=0/1/2/3
-        sum = sum + array[i][j]//1+2+3+4+5+6+4+7+8+9
-    }
+
+// // sum of diagonal
+
+// function sumOfArray(arr){
+// let sum=0
+// for (let i=0;i<arr.length;i++){
+
+// for (let j=0;j<arr[i].length;j++){
+// if((i==0&&j==0)||(i==1&&j==1)||(i==arr.length-1&&j==arr.length-1)){
+
+// sum=sum+arr[i][j]
+// }
+// }
+// }
+// console.log(sum)
+// }
+
+// sumOfArray([[1, 2, 3], [4, 5, 6], [7, 8,10]])
+
+
+// Arrow pattern print
+
+
+// function pattern(n){
+// for (let i=1;i<=n;i++){
+// let str=''
+// for(let j=1;j<=i;j++){
+//     str=str+'x'
+// }
+// console.log(str)
+// }
+// for(let k=1;k<=n-1;k++){
+//     let str=''
+//     for(let l=1;l<=n-k;l++){
+//         str=str+'x'
+//     }
+//     console.log(str)
+// }
+// }
+
+// pattern(5)
+
+// 
+function pattern(n){//3
+    //
+    let totalrows=(n*2)-1//5
+    let count=1//2//3//2//1//0
+for(let i=1;i<=totalrows;i++){
+    // i=1=2=3=4
+ let str=''
+for(let j=1;j<=count;j++){
+   
+    str=str+'xtr'
 }
-console.log(sum)
+if(i<n){
+    count++
+}else{count--}
+console.log(str)
 
-
-
-
-
-function sumOfArray(arr){
-let sum=0
-for (let i=0;i<arr.length;i++){
-
-for (let j=0;j<arr[i].length;j++){
-if((i==0&&j==0)||(i==1&&j==1)||(i==arr.length-1&&j==arr.length-1)){
-
-sum=sum+arr[i][j]
 }
 }
-}
-console.log(sum)
-}
 
-sumOfArray([[1, 2, 3], [4, 5, 6], [7, 8,10]])
+pattern(5)
