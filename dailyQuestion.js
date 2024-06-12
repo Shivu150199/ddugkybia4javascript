@@ -147,23 +147,113 @@
 // pattern(5)
 
 // 
-function pattern(n){//3
-    //
-    let totalrows=(n*2)-1//5
-    let count=1//2//3//2//1//0
-for(let i=1;i<=totalrows;i++){
-    // i=1=2=3=4
- let str=''
-for(let j=1;j<=count;j++){
+// function pattern(n){//3
+//     //
+//     let totalrows=(n*2)-1//5
+//     let count=1//2//3//2//1//0
+// for(let i=1;i<=totalrows;i++){
+//     // i=1=2=3=4
+//  let str=''
+// for(let j=1;j<=count;j++){
    
-    str=str+'xtr'
+//     str=str+'xtr'
+// }
+// if(i<n){
+//     count++
+// }else{count--}
+// console.log(str)
+
+// }
+// }
+
+// pattern(5)
+
+
+
+
+// 
+
+// function pattern(n){
+//     let space=n
+//     for(let i=1;i<=n;i++){
+//     let str=''
+//     for (let j=1;j<=i;j++){
+    
+//     // str=str+'x'
+//     str+='X'
+    
+//     }
+   
+
+//     for(let k=1;k<=space;k++){
+//         str=str+'0'
+//         }
+//     space=space-2
+
+
+//     console.log(str)
+    
+//     }
+    
+    
+    
+//     }
+    
+    
+//     pattern(3)
+
+
+function pattern(n){
+let space1=n//3
+for(let i=1;i<=n-1;i++){
+let str=''
+for(let j=1;j<=i;j++){
+    str=str+'X'
+    //x
+    //xx
 }
-if(i<n){
-    count++
-}else{count--}
+for(let k=1;k<=space1;k++){
+    str=str+' '
+}
+space1=space1-2
+for(let l=1;l<=i;l++){
+    str=str+'X'
+}
 console.log(str)
 
 }
+//second pattern
+let str2=''
+for(let m=1;m<=(n*2)-1;m++){
+    //m=1=2=3=4=5=6
+    str2=str2+'X'
+}
+// str2=xxxxx
+console.log(str2)
+let space2=1//3
+for(let o=1;o<=n-1;o++){
+    // o=1/2
+    let str3=''
+
+for(let p=1;p<=n-o;p++){
+    // p=2=3
+str3=str3+'X'
+
+}
+// str3=xx0Xx
+for(let q=1;q<=space2;q++){
+    str3=str3+' '
+}
+space2=space2+2
+for(let r=1;r<=n-o;r++){
+    str3=str3+'X'
+    
+    }
+
+    console.log(str3)
+
 }
 
-pattern(5)
+
+}
+pattern(3)
