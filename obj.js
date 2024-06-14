@@ -1,22 +1,22 @@
 
-let movie={
-    img:'https://th.bing.com/th/id/OIP.33e90okQHgvJG4ehIndSzQHaLC?rs=1&pid=ImgDetMain+',
-    'my title':'RRR',
-    ott:'prime video',
-    price:[123,100,250,155],
+// let movie={
+//     img:'https://th.bing.com/th/id/OIP.33e90okQHgvJG4ehIndSzQHaLC?rs=1&pid=ImgDetMain+',
+//     'my title':'RRR',
+//     ott:'prime video',
+//     price:[123,100,250,155],
    
-    currecny:{
-        us:'dollar',
-        india:{
-            paperNote:[10,50,100,500,2000],
-            coins:[1,2,5,10,20,50,100]
-        }
-    },
+//     currecny:{
+//         us:'dollar',
+//         india:{
+//             paperNote:[10,50,100,500,2000],
+//             coins:[1,2,5,10,20,50,100]
+//         }
+//     },
 
-    description:'its a nice movie',
-    rating:[4.5,3.5,3,5,2,5,1],
+//     description:'its a nice movie',
+//     rating:[4.5,3.5,3,5,2,5,1],
  
-}
+// }
 
 
 // console.log(movie.currecny.india.coins.length)
@@ -99,6 +99,141 @@ let movie={
 // for in loop 
 // cloning and copy of object
 // methods in objects
+
+
+
+// var let const
+
+
+// let adiObject={
+//     name:'aditya',
+//     age:22,
+//     gender:'male'
+// }
+
+// in operator
+// key in object
+
+// console.log('age' in adiObject)
+// console.log('section' in adiObject)
+
+
+// key in object
+
+// for in loop
+
+
+
+// let movie={
+//     img:'https://th.bing.com/th/id/OIP.33e90okQHgvJG4ehIndSzQHaLC?rs=1&pid=ImgDetMain+',
+//     'my title':'RRR',
+//     ott:'prime video',
+//     price:[123,100,250,155],
+   
+//     currecny:{
+//         us:'dollar',
+//         india:{
+//             paperNote:[10,50,100,500,2000],
+//             coins:[1,2,5,10,20,50,100]
+//         }
+//     },
+
+//     description:'its a nice movie',
+//     rating:[4.5,3.5,3,5,2,5,1],
+ 
+// }
+
+
+// movie.ott
+
+
+// for (let i in movie){
+// console.log('this is my key',i)
+
+// console.log('this is value ',movie[i])
+
+// }
+
+// let adiObject={
+//     name:'aditya',
+//     age:17,
+//     gender:'male'
+// }
+
+// for (let i in adiObject){
+//     // console.log('key',i)
+//     if(i=='age'){
+//         if(adiObject[i]>18){ 
+//             console.log('eligible')
+//         }else{
+//             console.log('not eligible')
+//         }
+//     }
+// }
+
+
+// let pizza={
+// type:'Vegeterian',
+// title:'4 Veg Medium Pizzas at 299 Each',
+// price:'1196',
+// desc:'Veggie party for four! Get 4 delicious Veg Medium Pizzas at 299 each and get the party started',
+// img:'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/8/b71bcc64-d335-483a-aecc-9d43817c2f20_101cb6b6-7be8-45cd-bd6c-c13b071545c7.png',
+// }
+// pizza['type']
+// for( let key in pizza){
+//     // console.log(i)
+//     console.log(pizza[key])
+// }
+
+
+// let array=['bhagwan','bablu','madhusudan']
+
+// // array[2]//bablu
+// for(let i=0;i<array.length;i++){
+//     console.log(i)
+//     console.log(array[i])
+// }
+
+// let obj={
+//     a:1,
+//     b:2,
+//     sum:function(){
+// console.log('sum function is called')
+// return 'lokendra'
+//     }
+// }
+// obj.c=3
+// console.log(obj)
+
+// // a function which is written in object called method
+// console.log(obj.sum())
+// // obj.sum
+
+
+let obj={
+    step:0,
+    increaseStep:function(){
+       obj.step++
+       console.log(obj.step)
+    }
+
+}
+
+
+obj.increaseStep()
+obj.increaseStep()
+obj.increaseStep()
+obj.increaseStep()
+obj.increaseStep()
+obj.increaseStep()
+
+
+
+
+
+
+
+
 
 
 
