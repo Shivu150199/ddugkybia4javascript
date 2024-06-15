@@ -107,4 +107,56 @@
 
 // console.log(result)
 
+// let a =10
+// let b=20
+// let c=23
 
+// console.log(Math.max(a,b))
+// console.log(Math.min(a,b,c))
+
+
+// toFixed()
+// let a=23.3984753694875
+// console.log(a.toFixed(2))
+
+// let b=342.234
+// console.log(b.toFixed(1))
+
+
+
+// let a='76'
+// Number(a)//76
+// NaN=Not a Number
+// isNaN
+// e76
+
+// console.log(isNaN(a))
+
+
+// isFinite
+
+
+// let a ='74'
+
+// console.log(isFinite(a))
+
+// Number
+// parseInt
+// Math.pow
+// Math.sqrt
+// Math.abs
+// Math.round
+// Math.floor
+// Math.trunc
+// Math.ceil
+// Math.max
+// Math.min
+// Math.random
+// toFixed
+// isNaN
+// isFinite
+// parseFloat
+
+
+// let a ='23.2a3a734'
+// console.log(Math.floor(parseFloat(a)))
