@@ -620,7 +620,7 @@
 
 // 
 // Write a JavaScript function to delete leading and trailing spaces from a string.
- 
+
 
 // function stripSpace(input){
 //     // console.log(input)
@@ -678,5 +678,413 @@
 //     }
 // let a=capitalizeString('baBlu sir')//Html Css Javascript
 // console.log(a)
+
+
+
+// let sentence='My name is shivam'//myNameIsShivam
+
+// let splitSentence=sentence.split(' ')
+// console.log(splitSentence)
+
+// let firstword=splitSentence[0]
+// console.log(firstword)
+// let flOfFw=firstword.charAt(0)//m
+// let firstTOUpperCase=flOfFw.toLowerCase()//M
+// console.log(firstTOUpperCase)
+// let leftLetterOfFirstWOrd=firstword.slice(1)//y
+
+// let firstFullWOrd=firstTOUpperCase+leftLetterOfFirstWOrd//My
+
+// splitSentence[0]=firstFullWOrd
+// console.log(splitSentence)
+
+// for(let i=1;i<splitSentence.length;i++){
+
+// splitSentence[i]=splitSentence[i].charAt(0).toUpperCase()+splitSentence[i].slice(1)
+// // console.log(fl)
+// }
+
+// console.log('result',splitSentence.join(''))
+
+
+// camelcase
+//pascal case
+
+//snake case
+//kawabcase
+
+// Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
+// Test Data :
+// console.log(remove_first_occurrence("The quick brown fox jumps over the lazy dog", 'dog'));
+// Output :
+// "The quick brown fox jumps over the lazy"
+
+
+// let str="The quick brown fox jumps over the lazy dog"
+// let serach='the'
+
+
+// function remove_first_occurrence(snetences,valueToRemove){
+
+// let result=snetences.replace(valueToRemove,'')
+// return result    
+// }
+// let result=remove_first_occurrence('my name is shivam','my')
+
+// console.log(result)
+
+
+
+// function camelcase(str){
+
+
+
+//     let splitSentence=str.split(' ')
+
+
+//     let firstword=splitSentence[0]
+//     console.log(firstword)
+//     let flOfFw=firstword.charAt(0)//m
+//     let firstTOUpperCase=flOfFw.toLowerCase()//M
+//     console.log(firstTOUpperCase)
+//     let leftLetterOfFirstWOrd=firstword.slice(1)//y
+
+//     let firstFullWOrd=firstTOUpperCase+leftLetterOfFirstWOrd//My
+
+//     splitSentence[0]=firstFullWOrd
+//     console.log(splitSentence)
+
+//     for(let i=1;i<splitSentence.length;i++){
+
+//     splitSentence[i]=splitSentence[i].charAt(0).toUpperCase()+splitSentence[i].slice(1)
+//     // console.log(fl)
+//     }
+
+//     console.log('result',splitSentence.join(''))
+
+
+
+// }
+
+
+
+// str.toLowerCase().replaceAll(' ','-')
+
+
+
+
+// Write a JavaScript function to test whether a string ends with a specified string.
+
+
+
+// function checkEnd(str,check){
+
+
+// return str.endsWith(check)
+
+// }
+
+
+// console.log(checkEnd('madhu sudan das','da'))
+
+
+
+// // let name='madhu sudan das'
+
+// // name.endsWith('das')
+
+// Write a JavaScript function to test whether a string starts with a specified string.
+
+
+// Write a JavaScript function to test whether the character at the given (character) index is lower case.
+
+
+// function checkLowerCase(str,index){
+
+
+
+//     return str.charAt(index)===str.charAt(index).toLowerCase()//h=h//D=d
+// }
+
+// let result=checkLowerCase('shDfjalsdjkf;as',2)
+
+
+// console.log(result)
+
+
+
+// Write a JavaScript function to create a case-insensitive search
+
+// // 'shivam'=='SHIVAM'
+
+
+
+
+// let name='lokendra jatav'
+
+
+// 'Jatav'
+
+
+// const name='shivam'
+// const name='loki'
+
+
+// let name='bablu yogesh Madhu SuDAN'
+
+// let search='suDan'
+
+
+
+// let name ='akash'
+// name.charAt(1)//k
+
+
+
+
+// let name2='etesh'
+
+// name2.startsWith('a')//true//false
+// name2.endsWith('h')//true
+
+
+// let name1='akash'
+// let name2='prakash'
+// let name3='bhagwan'
+
+// // []-
+// let nameArray=['akash','prakash','bhagwan',346,{name:'yogesh'},function hello(){
+
+// },name1,name2,name3]
+// console.log(nameArray)
+// // nameArray[4]//prakash//{name:'yogesh'}
+// nameArray[0]='etesh'
+
+// nameArray[3]=50
+
+
+// array methods
+
+// push
+// pop
+// shift
+// unshift
+
+
+
+//push
+
+// let array=[23,45,2,6,89,2]
+// console.log(array)
+// array.push(44)
+// console.log(array)
+
+// let animal=['dog','fox','dear','elephant']
+// animal.push('lion')
+// animal.push('tiger')
+// console.log(animal)
+
+// let evenNumber=[2,4,6,8]
+// evenNumber.pop()
+// // evenNumber.pop()
+// // evenNumber.pop()
+// // evenNumber.pop()
+// console.log(evenNumber)
+// 
+
+
+// let batch=['tse3','tse4','bia4','bia3']
+// console.log(batch)
+// batch.pop()
+// console.log(batch)
+// batch.pop()
+// console.log(batch)
+
+
+
+//shift
+
+// let num=[1,2,3,4,5]
+// num.shift()
+// console.log(num)
+// let alphabet=['a','b','c']
+// // alphabet.shift()//b,c
+// // alphabet.shift()//c
+// // console.log(alphabet)
+// alphabet.unshift('z')
+// alphabet.unshift('w')
+// console.log(alphabet)
+
+
+// push pop shift unshift
+
+
+
+
+
+// evenNumber[0]=0
+// evenNumber[1]=2
+// evenNumber[2]=4
+// evenNumber[3]=6
+// evenNumber[4]=8
+
+// evenNumber.push(0)
+// evenNumber.push(2)
+
+
+
+
+
+// let evenNumber=[]
+// for(let i=0;i<=100;i=i+2){
+// // i=0//2//4/6
+//     evenNumber.push(i)
+// }
+
+// console.log(evenNumber)
+
+
+// let oddNum=[]
+
+// // 1,3,5,7,9,11
+
+// for(let i=1;i<=1000;i=i+2){
+//     oddNum.push(i)
+// }
+
+
+// console.log(oddNum)
+
+
+
+
+
+// count of total even number between 500 to 1500
+
+
+// let evenNum=[]
+
+// for(let i=500;i<=1500;i=i+2){
+// evenNum.push(i)
+
+// }
+
+// console.log(evenNum.length)
+
+// create a function which take two values as parameter and return the count of total 
+
+
+// function evenNumCount(intialValue, lastValue) {
+
+//     let evenNum = []
+
+//     for (let i = intialValue; i <= lastValue; i++) {
+//         // i=501%2==0
+//         if (i % 2 == 0) {
+//             evenNum.push(i)
+//         }
+
+//     }
+
+//     console.log(evenNum)
+
+// }
+// evenNumCount(501, 1000)
+
+
+
+// 0 1 1 2 3 5 8 13 21 34
+
+// let fbSeries=[]
+// let a=0;
+// let b=1;
+// let fbArray=[a,b]
+// for(let i=2;i<20;i++){
+// let c=a+b//1//2//3
+// a=b//1//1//2
+// b=c//1//2//3
+// fbArray.push(c)
+// }
+
+// console.log(fbArray)
+
+
+// function fbSeries(n){
+//     let a=0;
+//     let b=1;
+//     let fbArray=[a,b]
+//     for(let i=2;i<n;i++){
+//     let c=a+b//1//2//3
+//     a=b//1//1//2
+//     b=c//1//2//3
+//     fbArray.push(c)
+//     }
+    
+//     console.log(fbArray)
+// }
+
+// fbSeries(20)
+
+
+// slice 
+// splice 
+// concat
+// indexOf
+// lastIndexOf
+
+
+// let age=[23,24,25,26,27,28]
+// // age.unshift(44)
+// let result=age.slice(0,5)
+// console.log(result)
+
+// slice 
+
+// let name='shivam singh'
+// console.log(name.slice(1,6))
+
+
+
+// let course=['web devlopment','app development','business analyst','data scientist']
+// console.log(course.slice(0,4))
+
+
+// slice(SI,LI)
+
+
+// 1  5
+
+// 1
+// 2
+// 3
+// 4
+
+// 
+
+
+//splice//
+
+// splice(startingIndex,count,elements)
+
+
+// let array=[23,5,31,4,123,65,12,7]
+// console.log(array.splice(2,0,'deepak',55))
+
+// console.log(array)
+
+
+// let num=[2,4,6,8,10]
+// num.splice(0,0,'bablu')
+// console.log(num)
+
+// let fruit=['apple','banana','grapes']
+
+
+
+// use splice method
+
+
+
+
 
 
