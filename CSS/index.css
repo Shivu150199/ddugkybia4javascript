@@ -1,0 +1,130 @@
+
+*{
+    background-color: brown;
+    color: white;
+}
+
+/* h4{
+    color:brown;
+}
+a{
+    color:black;
+} */
+
+/*tagselector*/
+/* h1{
+background-color: blueviolet;
+
+} */
+
+/* p{
+    color:white;
+    background-color: black;
+} */
+
+/* class selector */
+
+/* span{
+    color:yellow;
+}
+span{
+    color: orange;
+} */
+
+
+/* 
+.aneesh{
+color: yellow;
+}
+.bablu{
+color: orange;
+} */
+
+
+/* .para1{
+color: bisque;
+}
+
+.para2{
+color: aqua;
+}
+
+.para3{
+    color: blueviolet;
+} */
+
+/* img{
+    width:100px;
+} */
+
+/* .poster{
+    width:200px;
+} */
+ /* id selector */
+
+ /* #img{
+    width:200px;
+ }
+
+ #card{
+    border: 1px solid black;
+    width:300px;
+ } */
+
+/* 
+ .btn{
+    background-color: aqua;
+    color: black;
+    border: transparent;
+ } */
+
+ /* h1{
+    color: red;
+ }
+ h2{
+    color: red;
+ }
+ h3{
+    color: red;
+ }
+ h4{
+    color: red;
+ }
+ h5{
+    color: red;
+ }
+ h6{
+    color:red
+ } */
+
+
+ /* group slector */
+ /* h1,h2,h3,h4,h5,h6{
+    color: red;
+ }
+
+
+
+/* p,span{
+    color: blue;
+} */
+
+/* span{
+    color: blue;
+} */
+
+
+/* universal selector */
+
+/*
+/* tag selector */
+/* class selector */ use .
+/* id selector */ use #
+/* group selector use , between different selectors */
+/* universal selector */ use * - 
+*/
+
+
+span,p{
+    color: blue;
+} 
