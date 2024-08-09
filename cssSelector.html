@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selector</title>
+    <style>
+        /* .parent p{
+    color: blue;
+}  */
+        .parent>p {
+            color: blue;
+        }
+
+        div h2{
+            font-size:3rem;
+            color: red;
+        }
+
+        .btn{
+         background-color: bisque; 
+         border: transparent;  
+         padding: .8rem 1rem;
+         border-radius: 5px;
+         /*  */
+         box-shadow:2px 2px 5px rgba(0, 0, 0, 0.564);
+         transition:5s ;
+        }
+        .btn:hover{
+    box-shadow:2px 2px 5px rgba(239, 19, 19, 0.564);
+    color:white;
+}
+
+.title:hover{
+    color: blueviolet;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.link:link{
+    color:rgb(24, 245, 215);
+}
+.link:visited{
+    color:rgb(168, 210, 30);
+}
+.link:hover{
+    color:darkmagenta;
+}
+.link:active{
+    color: black;
+}
+.link2:link{
+    color:black;
+}
+.link2:visited{
+    color: red;
+}
+
+/* input{
+    background-color: blue;
+    border:5px dotted red;
+    outline: none;
+} */
+
+
+/* .container>a:first-child{
+    color:red;
+} */
+/* always work on block elemnet */
+.para::first-letter{
+color:red;
+background-color: black;
+}
+.heading{
+    position: relative;
+}
+
+.heading::before{
+content:'';
+
+background-color: brown;
+color:red;
+
+
+}
+
+
+
+.heading::after{
+    content:'hello from after pseudo element';
+    color:blue;
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <a href="https://www.onlyiasexam.com/2019/09/space-relationship-of-india-with.html">go to here</a>
+    <div>
+        <h1 class="title">simple selector</h1>
+        <ul>
+            <li>tag selector</li>
+            <li>id selector</li>
+            <li>class selector</li>
+            <li>universal selector</li>
+            <li>group selector</li>
+        </ul>
+
+        <h2>combinator selector</h2>
+        <ul>
+            <li>
+                child seector
+            </li>
+            <li>direct child selector</li>
+            <li>all child selector</li>
+        </ul>
+<h2 title="lokendra">pseudo class selector</h2>
+<ul>
+    <li>hover</li>
+    <li>link</li>
+    <li>focus</li>
+    <li>first child</li>
+</ul>
+<h2>pseudo elmenet</h2>
+<ul>
+    <li>first line</li>
+    <li>marker</li>
+    <li>after</li>
+    <li>before</li>
+ 
+</ul>
+    </div>
+
+<!-- 
+    <div>
+        <h2>child1 </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, autem?</p>
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+        <div class="child2">
+            <p>hello every one</p>
+            <h2>hello i am a h2 tag</h2>
+        </div>
+    </div>
+
+
+    <div class="parent">
+        <h2>second box</h2>
+        <p>i am second box paragraph</p>
+        <div>
+            <h2>hello i am a heading</h2>
+        </div>
+    </div> -->
+
+<!-- <button class="btn">click me</button> -->
+
+
+<div class="container">
+    <a href="https://www.onlyiasexam.com/2019/09/space-relationship-of-india-with.html">hello there</a>
+
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, atque!</p>
+    <a href="https://www.onlyiasexam.com/2019/09/space-relationship-of-india-with.html">hello there everyobe</a>
+</div>
+    
+</div>
+
+
+
+<input type="text" placeholder="write your name">
+
+
+<p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores at suscipit atque nihil labore quo unde adipisci aspernatur aperiam nobis, reprehenderit, libero minima consequuntur esse corporis nesciunt qui quisquam ex, id quas tempora mollitia! Sunt temporibus omnis, autem quam laudantium est repellat officia provident eius sapiente a dolorum perspiciatis.</p>
+
+
+
+<h2 class="heading">hello before pseudo element</h2>
+
+</body>
+
+</html>

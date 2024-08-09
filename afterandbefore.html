@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width:100vw;
+    height:100vh;
+    display: flex;align-items: center;justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.card{
+    width:20rem;
+    height:10rem;
+    border-radius: 10px;
+    background-color: blue;
+    position: relative;
+    z-index:10;
+}
+
+.card::before{
+    border-radius: 10px;
+content: '';
+height: 100%;
+width:100%;
+/* background-color: aquamarine; */
+/* border:1px solid red; */
+background-color: brown;
+position: absolute;
+top:.5rem;
+left:.5rem;
+z-index: -1;
+}
+.card::after{
+    border-radius: 10px;
+content: '';
+height: 100%;
+width:100%;
+background-color: rgb(16, 226, 226);
+position: absolute;
+/* border:1px solid rgb(13, 205, 35); */
+top:-2rem;
+left: -2rem;
+z-index: -2;
+}
+
+</style>
+
+</head>
+<body>
+    
+<section class="main">
+<div class="card"></div>
+
+
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    width: 100vw;
+    display: flex;
+    align-items: center;justify-content: center;
+    padding: 1rem;
+    background-color: rgb(95, 177, 248);
+
+}
+
+.navbar{
+    width:100%;
+    display: flex;align-items: center;justify-content:space-between;
+}
+.profile{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid rgb(5, 51, 62);
+}
+.page-container{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+.app a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+.logo{
+    font-weight: 900;
+    text-transform: capitalize;
+    color: white;
+}
+.logo span{
+    color: rgb(11, 83, 83);
+}
+
+
+
+.mq{
+    width:200px;
+    height:100px;
+    background-color: blue;
+}
+
+
+
+
+h1{
+    font-size: 8rem;
+    text-align: center;
+}
+.icon{
+    display: none;
+}
+
+/* @media screen {
+    
+} */
+ /* @media screen and (max-width:900px) {
+.mq{
+background-color: red;
+}
+ }
+
+@media screen and (max-width:600px){
+    .mq{
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width:400px){
+  .mq{
+    background-color: blueviolet;
+  }  
+} */
+
+/* 1100px
+ 
+768px
+
+525px */
+
+@media screen and (max-width:1100px) {
+    h1{
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:768px) {
+    h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen  and (max-width:525px){
+    h1{
+        font-size: 2rem;
+    }
+}
+/* 
+@media screen and (min-width:400px) {
+   .mq{
+    background-color: yellow;
+   } 
+}
+@media screen and (min-width:600px) {
+    .mq{
+        background-color: brown;
+    }
+}
+@media screen and (min-width:900px) {
+  .mq{
+    background-color: seagreen;
+  }  
+} */
+
+@media screen and (max-width:650px) {
+    .icon{
+        display: block;
+    }
+    .page-container{
+        display: none;
+    }
+    .profile-container{
+        display: none;
+    }
+    .logo{
+        font-size: 1.2rem;
+    }
+}
+
+/* hero section */
+.hero{
+    height: 86vh;
+    width:100%;
+    background-color: rgb(121, 240, 221);
+    background-image: url('https://wallpaperaccess.com/full/1431632.jpg');
+    background-size: 100%;
+    background-position:center;
+    display: flex;align-items: center;justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.hero-child{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.btn{
+    width:8rem;
+    padding: .8rem 1rem;
+    background-color: rgb(8, 197, 239);
+    border:none;
+    border-radius: 6px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    
+    <nav class="main">
+        <div class="navbar">
+        <h2 class="logo">shivam <span>singh</span></h2>
+        <ul class="page-container">
+            <li class="app"><a href="">home</a></li>
+            <li class="app"><a href="">about</a></li>
+            <li class="app"><a href="">contact</a></li>
+            <li class="app"><a href="">Project</a></li>
+        </ul>
+        
+        <div class="profile-container">
+            <img class="profile" src="https://as1.ftcdn.net/v2/jpg/02/30/60/82/1000_F_230608264_fhoqBuEyiCPwT0h9RtnsuNAId3hWungP.jpg" alt="profile">
+        </div>
+        
+        <p class="icon">icon</p>
+        </div>
+        
+        </nav>
+
+        <section class="hero">
+            <div class="hero-child">
+        <div class="icon-container">
+            <i class="fa-solid fa-plane-departure fa-2xl" style="color: rgb(29, 137, 220);"></i>
+        </div>
+        <h2 class="hero-title" style="font-size: 2.5rem; color: white;">Travel without limits</h2>
+        <p class="about" style="color: rgb(118, 118, 118);">create lifetime memories</p>
+        <button class="btn">take off</button>
+        </div>
+        </section>
+        
+</body>
+</html>
